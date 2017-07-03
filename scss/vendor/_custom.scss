@@ -2,3 +2,18 @@
 //
 // Copy variables from `_variables.scss` to this file to override default values
 // without modifying source files.
+$red:    #e23400;
+$black:  #1f1f1f;
+$white:  #fff;
+
+// Create grayscale
+$gray:                      #2d2d2d;
+
+
+// Reassign color vars to semantic color scheme
+$brand-primary:             $red;
+
+$enable-rounded:            false;
+
+$body-bg:       $black;
+$body-color:    $white;

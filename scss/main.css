@@ -279,7 +279,7 @@ html {
 
 body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: normal;
   line-height: 1.5;
   color: #fff;
@@ -459,11 +459,11 @@ h6, .h6 {
   font-size: 1rem; }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.65rem;
   font-weight: 300; }
 
 .display-1 {
-  font-size: 6rem;
+  font-size: 12vw;
   font-weight: 300;
   line-height: 1.1; }
 
@@ -518,7 +518,7 @@ mark,
 .blockquote {
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   border-left: 0.25rem solid #eceeef; }
 
 .blockquote-footer {
@@ -1539,8 +1539,8 @@ mark,
   vertical-align: middle;
   user-select: none;
   border: 1px solid transparent;
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
+  padding: 0.7em 2em;
+  font-size: 1.4rem;
   transition: all 0.2s ease-in-out; }
   .btn:focus, .btn:hover {
     text-decoration: none; }
@@ -4784,5 +4784,36 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+.navbar-inverse .navbar-brand {
+  font-family: "banshee-std", cursive;
+  color: #e23400;
+  font-size: 3rem; }
+
+.nav-item {
+  margin-left: 2em;
+  text-transform: uppercase;
+  font-size: 1.2rem; }
+
+body {
+  padding-top: 96px;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 300; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "banshee-std", cursive; }
+
+h1 {
+  color: #e23400; }
+
+.lead {
+  margin-bottom: 1.5em; }
+
+.hero {
+  background-image: url(../img/hero-bg.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  padding-top: 20vh;
+  padding-bottom: 25vh; }
 
 /*# sourceMappingURL=main.css.map */

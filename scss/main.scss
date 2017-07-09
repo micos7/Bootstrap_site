@@ -1,2 +1,10 @@
+@import 'abstracts/variables';
+
+
+
 //Bring in Botstrap
 @import 'vendor/bootstrap';
+
+@import 'components/navigation';
+@import 'base/typography';
+@import 'pages/home';

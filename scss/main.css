@@ -4816,4 +4816,10 @@ h1 {
   padding-top: 20vh;
   padding-bottom: 25vh; }
 
+.about-title {
+  background: url(../img/about-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 45w; }
+
 /*# sourceMappingURL=main.css.map */

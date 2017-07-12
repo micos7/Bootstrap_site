@@ -17,3 +17,17 @@
   padding-top: 10vh;
   padding-bottom: 10vh;
 }
+
+.band-member {
+  margin-bottom: 1.5em;
+}
+
+.band-member-name {
+  font-family: $sans;
+  text-transform: uppercase;
+}
+
+.band-member-position {
+  color: $gray-light;
+  margin-bottom: 0.25em;
+}

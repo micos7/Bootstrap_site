@@ -16,10 +16,20 @@
 .about-text {
   padding-top: 10vh;
   padding-bottom: 10vh;
+  @include media-breakpoint-up(md){
+    padding-bottom: 15vh;
+  }
 }
 
 .band-member {
   margin-bottom: 1.5em;
+  box-shadow: 6px 6px 15px 0 rgba(0,0,0,0.5);
+  @include media-breakpoint-up(md){
+    position: absolute;
+    top: -3em;
+    z-index: 100;
+  }
+  
 }
 
 .band-member-name {
@@ -30,4 +40,9 @@
 .band-member-position {
   color: $gray-light;
   margin-bottom: 0.25em;
+}
+
+.band-members {
+  position: relative;
+
 }

@@ -283,7 +283,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #fff;
-  background-color: #1f1f1f; }
+  background-color: #2d2d2d; }
 
 [tabindex="-1"]:focus {
   outline: none !important; }
@@ -375,7 +375,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #636c72;
+  color: #939393;
   text-align: left;
   caption-side: bottom; }
 
@@ -524,7 +524,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #636c72; }
+  color: #939393; }
   .blockquote-footer::before {
     content: "\2014 \00A0"; }
 
@@ -546,7 +546,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #1f1f1f;
+  background-color: #2d2d2d;
   border: 1px solid #ddd;
   transition: all 0.2s ease-in-out;
   max-width: 100%;
@@ -561,7 +561,7 @@ mark,
 
 .figure-caption {
   font-size: 90%;
-  color: #636c72; }
+  color: #939393; }
 
 .container {
   position: relative;
@@ -1800,7 +1800,7 @@ fieldset[disabled] a.btn {
     text-decoration: underline;
     background-color: transparent; }
   .btn-link:disabled {
-    color: #636c72; }
+    color: #939393; }
     .btn-link:disabled:focus, .btn-link:disabled:hover {
       text-decoration: none; }
 
@@ -1859,7 +1859,7 @@ tbody.collapse.show {
   .nav-link:focus, .nav-link:hover {
     text-decoration: none; }
   .nav-link.disabled {
-    color: #636c72;
+    color: #939393;
     cursor: not-allowed; }
 
 .nav-tabs {
@@ -1871,14 +1871,14 @@ tbody.collapse.show {
     .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
       border-color: #eceeef #eceeef #ddd; }
     .nav-tabs .nav-link.disabled {
-      color: #636c72;
+      color: #939393;
       background-color: transparent;
       border-color: transparent; }
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
     color: #2d2d2d;
-    background-color: #1f1f1f;
-    border-color: #ddd #ddd #1f1f1f; }
+    background-color: #2d2d2d;
+    border-color: #ddd #ddd #2d2d2d; }
   .nav-tabs .dropdown-menu {
     margin-top: -1px; }
 
@@ -2325,7 +2325,7 @@ tbody.collapse.show {
   vertical-align: text-top !important; }
 
 .bg-faded {
-  background-color: #171717; }
+  background-color: #252525; }
 
 .bg-primary {
   background-color: #e23400 !important; }
@@ -4674,10 +4674,10 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   color: #fff !important; }
 
 .text-muted {
-  color: #636c72 !important; }
+  color: #939393 !important; }
 
 a.text-muted:focus, a.text-muted:hover {
-  color: #4b5257 !important; }
+  color: #7a7a7a !important; }
 
 .text-primary {
   color: #e23400 !important; }
@@ -4795,6 +4795,19 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   text-transform: uppercase;
   font-size: 1.2rem; }
 
+.parallax {
+  display: none; }
+  @media (min-width: 768px) {
+    .parallax {
+      height: 30vmax;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      display: block; } }
+
+.parallax-home {
+  background-image: url(../img/parallax.jpg); }
+
 body {
   padding-top: 96px;
   font-family: "mr-eaves-xl-modern", sans-serif;
@@ -4816,10 +4829,57 @@ h1 {
   padding-top: 20vh;
   padding-bottom: 25vh; }
 
+.about {
+  background: #1f1f1f; }
+
 .about-title {
   background: url(../img/about-bg.jpg);
   background-size: cover;
   background-position: center;
   min-height: 45w; }
+
+.about-text {
+  padding-top: 10vh;
+  padding-bottom: 10vh; }
+  @media (min-width: 768px) {
+    .about-text {
+      padding-bottom: 15vh; } }
+
+.band-member {
+  margin-bottom: 1.5em;
+  box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.5);
+  background: black; }
+  @media (min-width: 768px) {
+    .band-member {
+      position: absolute;
+      top: -3em;
+      z-index: 100; } }
+
+.band-member-name {
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  text-transform: uppercase; }
+
+.band-member-position {
+  color: #939393;
+  margin-bottom: 0.25em; }
+
+.band-members {
+  position: relative; }
+
+.music {
+  margin-top: 5em;
+  margin-bottom: 5em; }
+
+.music-container {
+  background: #1f1f1f;
+  box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.5);
+  padding-top: 7vh;
+  padding-bottom: 7vh; }
+
+.music-title {
+  margin-bottom: 0.5em; }
+
+.music-cta {
+  margin-top: 2em; }
 
 /*# sourceMappingURL=main.css.map */

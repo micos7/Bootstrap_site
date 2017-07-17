@@ -4836,11 +4836,11 @@ h1 {
   background: url(../img/about-bg.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 45w; }
+  min-height: 45vw; }
 
 .about-text {
-  padding-top: 10vh;
-  padding-bottom: 10vh; }
+  padding-top: 6vh;
+  padding-bottom: 6vh; }
   @media (min-width: 768px) {
     .about-text {
       padding-bottom: 15vh; } }
@@ -4884,7 +4884,7 @@ h1 {
 
 .shows {
   margin-top: 2em;
-  font-size: 9em; }
+  font-size: .9em; }
 
 .show-title {
   font-family: "mr-eaves-xl-modern", sans-serif; }
@@ -4893,11 +4893,22 @@ h1 {
   margin-bottom: 0; }
 
 .date {
-  font-weight: 500; }
+  font-weight: 500;
+  margin-top: 1.25em; }
+  .date::before {
+    content: '\f133';
+    display: inline-block;
+    font-family: FontAwesome;
+    margin-right: 0.5em; }
 
 .price {
   font-weight: 500; }
   .price small {
     font-weight: 400; }
+  .price::before {
+    content: '\f145';
+    display: inline-block;
+    font-family: FontAwesome;
+    margin-right: 0.5em; }
 
 /*# sourceMappingURL=main.css.map */

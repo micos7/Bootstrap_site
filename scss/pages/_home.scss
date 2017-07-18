@@ -81,6 +81,11 @@
   font-family: $sans;
 }
 
+.show-info {
+  display: flex;
+  flex-direction: column;
+}
+
 .show-info > * {
   margin-bottom: 0;
 }

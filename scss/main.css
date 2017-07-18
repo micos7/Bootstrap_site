@@ -4808,6 +4808,12 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .parallax-home {
   background-image: url(../img/parallax.jpg); }
 
+footer {
+  margin-top: 4em;
+  background: #1f1f1f;
+  padding: 2em 0 1.5em;
+  color: #939393; }
+
 body {
   padding-top: 96px;
   font-family: "mr-eaves-xl-modern", sans-serif;
@@ -4888,6 +4894,10 @@ h1 {
 
 .show-title {
   font-family: "mr-eaves-xl-modern", sans-serif; }
+
+.show-info {
+  display: flex;
+  flex-direction: column; }
 
 .show-info > * {
   margin-bottom: 0; }
